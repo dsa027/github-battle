@@ -1,0 +1,90 @@
+body {
+  /* background: green; */
+  font-family: -apple-system, BlinkMaxSystemFont, Roboto, Oxygen-Sans, Cantarell, Helvetica, Neue, sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+ul.languages {
+  display: flex;
+  justify-content: center;
+}
+ul.languages li {
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.popular-item {
+  margin: 20px;
+  text-align: center;
+}
+.popular-rank {
+  font-size: 20px;
+  font-weight: bold;
+}
+.repo-name {
+  color: #d0021b;
+}
+span.span-block {
+  display: block;
+}
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+a.repo-url {
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+}
+ul.nav li {
+  margin-right: 15px;
+}
+.active {
+  font-weight: bold;
+}
+.nav a {
+  text-decoration: none;
+  color: #d0021b;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  color: #e6e6e6;
+  background: #0a0a0a;
+  border: none;
+  font-size: 16px;
+  border-radius: 3px;
+  width: 200px;
+  text-align: center;
+  display: block;
+  padding: 7px 0;
+  margin: 10px auto;
+  text-decoration: none;
+}
+
+.button:hover:enabled {
+  background: linear-gradient(#1a1a1a,#0a0a0a);
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
