@@ -122,7 +122,9 @@ ul.nav li {
   width: 100%;
   text-align: center;
 }
-
 .reset:hover {
   cursor: pointer;
+}
+.space-list-items {
+  margin-bottom: 7px;
 }
